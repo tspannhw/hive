@@ -70,7 +70,6 @@ public class HiveApplication {
 			dataSource.setUrl(databaseUri);
 			dataSource.setDriverClassName("org.apache.hive.jdbc.HiveDriver");
 			dataSource.setUsername(username);
-			// dataSource.setPassword(password);
 			logger.error("Initialized Hive");
 			
 			return dataSource;

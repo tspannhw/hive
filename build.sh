@@ -1,1 +1,1 @@
-mvn package -DskipTests
+mvn install 
